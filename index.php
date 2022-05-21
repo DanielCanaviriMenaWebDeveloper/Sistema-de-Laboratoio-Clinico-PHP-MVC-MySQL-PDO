@@ -72,6 +72,8 @@
         <script src="plantilla/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
         <!-- AdminLTE App -->
         <script src="plantilla/dist/js/adminlte.min.js"></script>
+        <!-- Sweet Alert  -->
+        <script src="utilitarios/sweetalert.js"></script>
         <!-- Custom JS -->
         <script src="js/usuario.js?rev=<?php echo time(); ?>"></script>
     </body>

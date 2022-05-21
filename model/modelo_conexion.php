@@ -2,7 +2,7 @@
 
     /* 
     Ejemplo para una conexión PDO en PHP de la documentación. 
-    https://www.php.net/manual/es/pdo.construct.php */
+    https://www.php.net/manual/es/pdo.construct.php 
     
     $dns = "mysql:dbname=curso_laboratorio;host=localhost";
     $usuario = "root";
@@ -15,7 +15,7 @@
         echo "<h1 style='color: white; background-color: black; padding: 10px; width: 250px; box-shadow: 2px 2px 5px red;'>Fallo la conexión: </h1>" . $e->getMessage();
     }
 
-    /*
+*/
     class conexionBD
     {
         public function conexionPDO() {
@@ -34,12 +34,12 @@
             }
         }
 
-        function cerrar_conexion() {
+        public  function cerrar_conexion() {
             $this->$pdo=null;
         }
     }
 
-    */
+
 
 
 ?>
